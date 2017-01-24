@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="js/test2.js"></script>
+        <link rel="stylesheet" href="css/test.css"
+	</head>
+	<body>
+			
+       <div id="container">
+        <center><form id="ourForm">
+            <label>First Name</label>
+            <input id="name1" type="text" /><br />
+            <label>Last Name</label>
+            <input  id="name2"type="text" /><br />
+            <label>birthdate</label>
+            <input id="birth" type="date" placeholder="mm/dd/yyyy" pattern="^[0-9]{1,2}/[0-9]{1,2}/[0-9]{4}$"/><br />
+             <label>dept</label>
+            <input id="dept" type="text"/><br />
+            <input type="button"  onclick="myCreateFunction()" value="submit"/>
+    </form>
+         <table id="emp" style="width:100% ;border: solid 2px;" >
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Age</th>
+    <th>id</th>
+    <th>birthdate</th>
+    <th>dept</th>
+  </tr>
+  
+  
+</table> 
+        
+        
+        </center>
+    </div> 
+	</body>
+
+</html>
